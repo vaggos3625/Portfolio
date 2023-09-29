@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>🎥Movie Recommender🎥</title>
+</head>
+<body>
+
+    <h1>Movie Recommender</h1> 
+    <p>Welcome to the Movie recommender</p>
+    <p id="rating-paragraph">Rate some movies on a scale 1.0-5.0</p>
+    <form action="/recommendation">
+        {{first_movie}}: <input class="form" type="number" name="first_movie" placeholder="0.0 - 5.0" min="1" max="5">
+        <br>
+        {{second_movie}}: <input class="form" type="number" name="second_movie" placeholder="0.0 - 5.0" min="1" max="5">
+        <br>
+        {{third_movie}}: <input class="form" type="number" name="third_movie" placeholder="0.0 - 5.0" min="1" max="5">
+        <br>
+        {{fourth_movie}}: <input class="form" type="number" name="fourth_movie" placeholder="0.0 - 5.0" min="1" max="5">
+        <br>
+        {{fifth_movie}}: <input class="form" type="number" name="fifth_movie" placeholder="0.0 - 5.0" min="1" max="5">
+        <br>
+        <input type="submit" value="Sending to the Recommendation">
+    </form>
+    <p>Go to the 
+    <a href="/recommendation">recommendations</a>
+    </p>
+
+</body>
+</html>

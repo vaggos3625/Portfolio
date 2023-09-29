@@ -1,0 +1,6 @@
+requests
+pymongo
+dnspython
+vaderSentiment
+sqlalchemy
+psycopg2
