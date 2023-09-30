@@ -17,3 +17,4 @@ df_simulation_one_day = simulate_customers(df_arrival_time)
 
 #Save to demo folder to analyze the data
 df_simulation_one_day.to_csv('/home/evangelo/evangelo-leo-0/evangelos-leo/Markov-chain-simulation-master/pydot-master/one_day_simulation_0.csv',index=None)
+
