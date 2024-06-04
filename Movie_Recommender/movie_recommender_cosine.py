@@ -37,7 +37,7 @@ def recommender_cosine(new_user_ratings):
         for user in neighbours:
             # if this person has seen the movie
             if user in people_who_have_seen_the_movie:
-            #  we want extract the ratings and similarities
+            #  we want to extract the ratings and similarities
                 rating = updated_df_t.loc[movie, user]
                 similarity = updated_cosine_sim_table.loc[active_user, user]
             
